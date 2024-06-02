@@ -3,10 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f94a2849d6.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     
-    <h1>HELLLO WORLD</h1>
+            <header>
+            <nav>
+                <img src="images/images.jpeg" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+            <div id="header">
+                <div class="container">
+            <div class="header-text">
+                <p>Henna Mehndi Designer</p>
+                <h1>Hi, I'm <span>Aanchal</span></h1>
+            </div>
+        </div>
+    </div>
+    <!---------about--------->
+    <div id="about">
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/resize-17161093421547246319cutegirlpic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Being an experienced and creative henna artist, I come up with mesmerizing,
+                         distinctive henna patterns that capture one's attention and make them want to get one too. I am equipped with innate artistic skills and an ability to observe,
+                          which enables me to create new patterns that contain both traditional and modern elements. It could be for a wedding, a festival or just as a personal adornment;
+                           the tattoos thereby become part of a story, one unique to each person wearing it. My commitment to this art is obvious in each of the pieces that I make, 
+                           the response that my clients have, and the enjoyment of life that I bring with my beautiful, fleeting works of art.</p>
+
+                           <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Artistic Creativity</span><br>I build great mosaics with beautiful designs that have both traditional and modern elements.</li>
+                                <li><span>Attention to Details</span><br>I guarantee patterns are accurate and repeat them for a perfect finished product.</li>
+                                <li><span>Customer Interaction</span><br>acquire the customers' tastes and am able to offer a new experience for their full satisfaction.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Bridal Henna</span><br>Designing bridal henna patterns of different sizes for wedding celebrations.</li>
+                                <li><span>Events</span><br>Showcasing henna art by participating in cultural festivals and events.</li>
+                                <li><span>Private Customers</span><br>Developing custom henna tattoos for special events we well as for private customers.</li>
+                            </ul>
+                         </div>
+                         
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--------services--------> 
+ <div id="services">
+ <br><br><br><br>
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-hand"></i>
+                <h2>Bridal Henna</h2>
+                <p>Designing henna patters for brides and their event participants.</p>  
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-calendar-days"></i>
+                <h2>Event Henna</h2>
+                <p>Offering henna designs at festivals, corporate events, and private parties.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-heart"></i>
+                <h2>Customizing Henna</h2>
+                <p>Customizing beautiful henna arts for clients depending on their specifications and events.</p>
+                
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <!--------portfolio------->
+  <div id="portfolio">
+    <br><br><br>
+    <div class="container">
+        <h1 class="sub-tittle">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/resize-17162225111175272001hennapic2.jpg">
+                <div class="layer">
+                    <h3>Bridal Henna</h3>
+                    <p>Bridal henna artfully embellishes native motifs into the wedding ceremony, thus symbolizing the unity of cultural essence and ornamentation</p>
+                    
+                </div>
+                 </div>
+                 <div class="work">
+                    <img src="images/resize-17162227131065401231hennapic1.jpg">
+                    <div class="layer">
+                        <h3>Event Henna</h3>
+                        <p>The beauty of henna event is associated with the details of the patterns, ozan skills, saturation and the culture that involves beauty and an unforgettable experience.</p>
+                       
+                    </div>
+                 </div>
+                 <div class="work">
+                    <img src="images/resize-17162228651912792683hennapic5.jpg">
+                    <div class="layer">
+                        <h3>Customizing Henna</h3>
+                        <p>Custom henna gives customer more specific and unique designs that suits the occasion or the design desired.</p>
+                        
+                    </div>
+                 </div>
+        </div>
+        <a href="/Images 2/Index.html" class="btn">See more</a>
+
+    </div>
+   </div>
+   <!-----------contact--------->
+   <div id="contact">
+    <br><br><br><br><br>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <input type="hidden" name="access_key" value="ff8c7264-9b3b-45e4-bf2a-965766c89186">
+                <p><i class="fa-solid fa-paper-plane"></i>aanchalnasrullah5@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0543970996</p>
+                <div class="social-icons">
+                    <a href=" https://wa.me/971543970996"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/aanchalkhan86/"><i class="fa-brands fa-square-instagram"></i></a>
+                   
+                </div>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" requried>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
 </body>
 </html>
